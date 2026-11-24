@@ -1,7 +1,5 @@
 clear
 
-remove_dependency
-
 buoytype=2;
 Bmethod=2;
 test_freq=0.4;
