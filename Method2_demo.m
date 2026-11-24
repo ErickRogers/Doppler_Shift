@@ -2,8 +2,6 @@
 %% Method_A1_B2_demo.m
 %% Purpose : demonstrate application of Method_A1_B2 (denoted "Method 2" in the paper) for a single spectrum
 
-remove_dependency
-
 clear
 
 buoytype=2;
