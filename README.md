@@ -11,6 +11,5 @@ List of files:
 * ./Doppler_shift_one_Spotter_A1_Bx.m
 * ./Holthuijsen_Forristall_spectrum.m
 * ./Method2_demo.m
-* ./remove_dependency.m
 * ./Ustar_fn_Hwang_mod_v2.m
 * ./sample_data/Ef.0.2Hz.0.67Hz_drmax3.5.buoy2.U10_10.rep18219.mat
