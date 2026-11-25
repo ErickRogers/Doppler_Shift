@@ -1,6 +1,7 @@
 function call_Doppler_shift_A1_Bx(buoytype,U10wanted,test_freq,ISKIP,Bmethod)
 
-%%Mon Feb 23 01:30:02 PM CST 2026
+%% Mon Feb 23 01:30:02 PM CST 2026
+%% Purpose: Loop over Spotter spectra within a U10 bin and call Doppler_shift_A1_Bx.m
 
 %% call_Doppler_shift_one_Spotter.m
 %% octave code by Erick Rogers, NRL 7322, Feb. 2026
