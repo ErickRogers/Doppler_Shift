@@ -131,6 +131,9 @@ EfDSTF      = NaN(nmax, 1);
 icount=0;
 %% This is the primary loop: call "Doppler_shift_one_Spotter.m"
 for irec=1:ISKIP:length(U10)
+  %% Notice that we don't pass Bmethod to Doppler_shift_one_Spotter_A1_Bx.m.
+  %% Doppler_shift_one_Spotter_A1_Bx.m knows which method to use, based on the number of arguments provided to it.
+  %% Thus, if you want to use Method 1, DO NOT provide PROJs(irec).
   if Bmethod==1
     EfaEfd=Doppler_shift_one_Spotter_A1_Bx(fd,Ef_save{irec},U10(irec),test_freq);
   elseif Bmethod==2
